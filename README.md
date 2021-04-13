@@ -8,4 +8,8 @@ See AWS Blog Post for more info [here](https://aws.amazon.com/blogs/aws-cost-man
 
 ## Run Script
 Ensure you are loged into the right account in your terminal. You can do this by setting access keys and using your default profile. See instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+
+By Default this is a dry run script. If you wish it to be a review then *no* export needed. To make changes you can run
+```export DRYRUN=False```
+Then to run the review/change
 ```python gp3.py```
